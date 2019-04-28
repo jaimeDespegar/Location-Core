@@ -22,6 +22,14 @@ public class Coordinate {
         return point.getY();
     }
 
+    public void setX(Double x) {
+        this.point.setLocation(x, point.getY());
+    }
+
+    public void setY(Double y) {
+        this.point.setLocation(point.getX(), y);
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
