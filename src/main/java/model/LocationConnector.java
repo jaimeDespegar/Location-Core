@@ -7,6 +7,6 @@ public interface LocationConnector {
     Boolean isAvailable();
     Boolean on();
     Boolean off();
-    List<Coordinate> getData(LocationSearchDto locationSearchDto);
+    List<Coordinate> getData(Coordinate arrival, Coordinate departure);
 
 }
