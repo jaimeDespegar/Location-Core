@@ -2,7 +2,7 @@ package model;
 
 import java.util.List;
 
-public interface LocationConnector {
+public interface Location {
 
     Boolean isAvailable();
     Boolean on();
